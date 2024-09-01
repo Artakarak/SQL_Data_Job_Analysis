@@ -17,8 +17,7 @@ GROUP BY
     skills
 ORDER BY 
     average_salary DESC
-LIMIT 20
- 
+LIMIT 20;
  /*
 1. Programming Languages and Tools Dominate: The top-earning skills are heavily skewed 
 toward programming languages such as Haskell, Kotlin, Clojure, Golang, Swift, Scala, Rust, and Julia, 

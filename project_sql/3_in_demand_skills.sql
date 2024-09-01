@@ -14,8 +14,7 @@ GROUP BY
     skills
 ORDER BY 
     DEMAND DESC
-LIMIT 5
-
+LIMIT 5;
 /*
 The demand for each skill follows the following order:
 1. Python

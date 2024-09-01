@@ -23,16 +23,18 @@ with top_salaries AS (
     LIMIT 10
 )
 -- To just display the skills asscociated with the top jobs.
+/*
 SELECT 
     skills,
     top_salaries.*
 FROM top_salaries 
     INNER JOIN skills_job_dim ON top_salaries.job_id = skills_job_dim.job_id
     INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
-ORDER BY salary_year_avg DESC
+ORDER BY salary_year_avg DESC;
+*/
 
 -- Direct counting method.
-/*
+
 SELECT 
     skills,
     COUNT(*) AS COUNT
@@ -40,8 +42,7 @@ FROM top_salaries
     INNER JOIN skills_job_dim ON top_salaries.job_id = skills_job_dim.job_id
     INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 GROUP BY skills
-ORDER BY COUNT DESC
-*/
+ORDER BY COUNT DESC;
 
 /*
 These results report PYTHON (1), MONGOdb (2) and EXCEL (3) to be the most desired skills.

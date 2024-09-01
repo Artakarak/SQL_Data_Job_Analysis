@@ -32,7 +32,6 @@ WITH skills_demand AS (
         skills_dim.skill_id, skills
 )
 SELECT
-    skills_demand.skill_id,
     skills_demand.skills,
     DEMAND,
     avg_salary
@@ -41,7 +40,7 @@ INNER JOIN average_salary ON skills_demand.skill_id = average_salary.skill_id
 ORDER BY 
     DEMAND DESC,
     avg_salary DESC
-LIMIT 15; 
+LIMIT 35; 
 
 -- Concise method. In this case, salary is given precedent.
 
@@ -56,10 +55,10 @@ WHERE
     salary_year_avg IS NOT NULL AND
     LOWER(job_title) LIKE '%machine learning%'
 GROUP BY
-    SKILL
+    skills
 HAVING 
     COUNT(skills_job_dim.job_id) > 10
 ORDER BY
-    avg_salary DESC,
-    DEMAND_COUNT DESC
+     DEMAND_COUNT DESC,
+     avg_salary DESC
 LIMIT 25;

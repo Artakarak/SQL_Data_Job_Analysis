@@ -17,7 +17,7 @@ Data is obtained from the following (public, created by Luke Barousse) [project]
 5. What are the most optimal (in demand and high earning)skills to learn? 
 
 # Tools I Used
-For this in-depth exploration of the data analyst job market, I utilized the power of several essential tools.
+For this in-depth exploration of the ML job market, I utilized the power of several essential tools.
 
 - **SQL:** The backbone of my analysis, allowing me to query the database and unearth critical insights.
 - **PostgreSQL:** The chosen database management system, ideal for handling the job posting data.
@@ -28,7 +28,7 @@ For this in-depth exploration of the data analyst job market, I utilized the pow
 Each query for this project aimed at answering the above questions of the ML job market.
 
 ### 1. Top-Paying Remote ML Jobs.
-To identify the highest-paying roles, I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying (Top 10) opportunities in the field.
+To identify the highest-paying roles, I filtered ML positions by average yearly salary and location, focusing on remote jobs. This query highlights the high paying (Top 10) opportunities in the field.
 
 ```sql
 SELECT 
@@ -49,7 +49,7 @@ ORDER BY
 LIMIT 10;
 ```
 Here's the breakdown of the top ML jobs in 2023:
-- **Salary Range:** Top 10 paying data analyst roles span from $180,000 to $325,000, indicating significant salary potential in the field.
+- **Salary Range:** Top 10 paying ML roles span from $180,000 to $325,000, indicating significant salary potential in the field.
 - **Diverse Employers:** Many companies are offering powerful positions, though **Acceler8 Talent** is taking up 40% of this list.
 - **Job Titles:** Of these top 10 positions, 6 are engineers, 2 are reasearch based. This shows the value companies are placing on the growth of their AI departments, rather than the mere existence of these roles,
 
@@ -287,7 +287,7 @@ Throughout this adventure, I've turbocharged my SQL toolkit with some serious fi
 ### Insights
 From the analysis, several general insights emerged:
 
-1. **Top-Paying ML Jobs**: The highest-paying jobs for data analysts that allow remote work offer a wide range of salaries, the highest at $325,000!
+1. **Top-Paying ML Jobs**: The highest-paying jobs for MLs that allow remote work offer a wide range of salaries, the highest at $325,000!
 2. **Skills for Top-Paying Jobs**: High-paying ML jobs require Python as a minimum, though also require cloud based skills along with AI specific packages.
 3. **Most In-Demand Skills**: Python is also the most demanded skill in the ML job market, thus making it essential for job seekers.
 4. **Skills with Higher Salaries**: Specialized skills, such as Haskell and Julia, are associated with the highest average salaries, indicating a premium on niche expertise.

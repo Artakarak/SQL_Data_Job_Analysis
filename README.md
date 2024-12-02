@@ -4,7 +4,7 @@ A dive into the data job market with an emphasis on ML (Machine Learning) relate
 Check out the queries here: [project_sql folder](/project_sql/).
 
 # Background
-As a student interested in the world of data-related careers and fields, this project eould prove to be illustrative of the skills I should prioritize to maximize the returns of my efforts. Moreover, many students share this position with me, so the queries serve to be versatile.
+As a student interested in the world of data-related careers and fields, this project would prove to be illustrative of the skills I should prioritize to maximize the returns of my efforts. Moreover, many students share this position with me, so the queries serve to be versatile.
 
 Data is obtained from the following (public, created by Luke Barousse) [project](https://drive.google.com/drive/folders/1egWenKd_r3LRpdCf4SsqTeFZ1ZdY3DNx). It's packed with insights on job titles, salaries, locations, and essential skills.
 
